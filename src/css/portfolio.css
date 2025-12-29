@@ -1,0 +1,48 @@
+.portfolio-page {
+  min-height: 70vh;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.portfolio-subtitle {
+  color: #6c757d;
+  font-size: 1.05rem;
+}
+
+.portfolio-card {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Fix image size for uniform cards */
+.portfolio-image {
+  height: 200px; /* fixed height */
+  object-fit: cover; /* maintains aspect ratio, crops if necessary */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.75rem;
+}
+
+/* Buttons */
+.portfolio-card .btn {
+  font-size: 0.85rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .portfolio-title {
+    font-size: 1.6rem;
+  }
+}

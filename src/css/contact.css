@@ -1,0 +1,72 @@
+/* Contact Page */
+.contact-page {
+  min-height: 70vh;
+}
+
+.contact-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  color: #6c757d;
+  font-size: 1.05rem;
+}
+
+/* Card */
+.contact-card {
+  border-radius: 16px;
+  padding: 1.5rem;
+  background-color: var(--bs-body-bg);
+}
+
+/* Contact items */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+.contact-item h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Icons */
+.contact-icon {
+  font-size: 1.5rem;
+  color: #0d6efd;
+}
+
+/* Links */
+.contact-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-item a:hover {
+  color: #0d6efd;
+}
+
+/* Mobile tweaks */
+@media (max-width: 576px) {
+  .contact-card {
+    padding: 1.25rem;
+  }
+
+  .contact-title {
+    font-size: 1.6rem;
+  }
+}
