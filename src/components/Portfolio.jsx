@@ -74,7 +74,9 @@ const projects = [
     description:
       "My personal website about my Portfolios and development that showcase my projects for clients and personal developments.",
     technologies: ["React", "HTML", "css"],
-    github: "https://github.com/Hendrikdl/",
+    languages: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/Hendrikdl/hendrikdelange-it",
+    live: "",
   },
   // Add more projects here
 ];
