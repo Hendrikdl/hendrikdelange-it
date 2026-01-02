@@ -8,6 +8,7 @@ import tictactoeimage from "../images/ticktactoe.png";
 import hendrikdelangeImage from "../images/hendrikdelange.png";
 import weatherImage from "../images/weather.png";
 import portfolioImage from "../images/portfolio.png";
+import jacosteenkampImage from "../images/jacosteenkamp.png";
 
 // Example project data blueprint
 const projects = [
@@ -77,6 +78,16 @@ const projects = [
     languages: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/Hendrikdl/hendrikdelange-it",
     live: "",
+  },
+  {
+    title: "Client - 3D Printing Service",
+    image: jacosteenkampImage,
+    description:
+      "Clients site that offers 3D printing services for various needs.",
+    technologies: ["React", "Bootstrap", "EmailJS"],
+    languages: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/Hendrikdl/jacosteenkamp",
+    live: "https://jacosteenkamp.onrender.com",
   },
   // Add more projects here
 ];
