@@ -84,7 +84,14 @@ const projects = [
     image: jacosteenkampImage,
     description:
       "Clients site that offers 3D printing services for various needs.",
-    technologies: ["React", "Bootstrap", "Nodemailer", "Vercel"],
+    technologies: [
+      "Next.JS",
+      "Bootstrap",
+      "Nodemailer",
+      "Vercel",
+      "e-commerce",
+      "Payfast Payments",
+    ],
     languages: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/Hendrikdl/jacosteenkamp",
     live: "https://jacosteenkamp.vercel.app",
